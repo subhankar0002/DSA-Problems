@@ -20,7 +20,10 @@ The third child gets 1 candy because it satisfies the above two conditions.
 
 class Solution(object):
     def candy(self, ratings):
-        
+        """
+        :type ratings: List[int]
+        :rtype: int
+        """
         count=0
         for i in range(1,len(ratings)-1):
             if (ratings[i]>ratings[i-1] or ratings[i]>ratings[i+1]) :
