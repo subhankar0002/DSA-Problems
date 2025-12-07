@@ -20,7 +20,6 @@ Input: nums = [1], target = 0
 Output: -1
  
 Constraints:
-
 1 <= nums.length <= 5000
 -104 <= nums[i] <= 104
 All values of nums are unique.
